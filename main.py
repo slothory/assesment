@@ -10,11 +10,11 @@ def my_math_function(x, y, z):
     return x-y
 
 
-#main brain
-print("***************************************")
-print("*Welcome to my python maths calculator*")
-print("***************************************")
-math_sign=input("D = Division, M = Multiplication, A = Addition, S = Subtraction ")
+#the main code for the calculator
+print("-----------------------------------")
+print("= Welcome to my python calculator =")
+print("-----------------------------------")
+math_sign=input("What equation would you like mo to complete. D = Division, M = Multiplication, A = Addition or S = Subtraction? ")
 num1=input("Enter first number ")
 num2=input("Enter second number ")
 print("Your final answer is") 
